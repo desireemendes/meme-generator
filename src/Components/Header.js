@@ -1,6 +1,11 @@
+import './Header.css'
+
 export default function Header() {
     return (
-        <h1>Meme Generator</h1>
+        <header className="header">
+
+            <h2>Meme Generator</h2>
+        </header>
     )
 }
 
