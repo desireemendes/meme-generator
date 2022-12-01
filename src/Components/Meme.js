@@ -1,6 +1,10 @@
 import './Meme.css'
+import memesData from '../memesData'
+
 
 export default function Meme() {
+
+
     return (
         <main>
             <form className="form">
@@ -19,6 +23,7 @@ export default function Meme() {
                 >
                     Generate meme image 🖼
                 </button>
+                
             </form>
         </main>
     )
